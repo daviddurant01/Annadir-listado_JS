@@ -1,0 +1,37 @@
+body{
+    background-color: #4c8585;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recogerdatos{
+    margin: 30px;
+}
+
+
+#tabla{
+    margin: 0px;
+}
+
+
+#check {
+    margin: 30px;
+}
+
+.cch{
+    color: rgb(27, 25, 22);
+    background-color: rgb(95, 86, 136);
+}
+
+
+.ccb{
+    color: rgb(27, 25, 22);
+    background-color: rgb(161, 105, 103);
+}
+
+.ccn{
+    color: rgb(27, 25, 22);
+    background-color: rgb(165, 101, 64);
+}

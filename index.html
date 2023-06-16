@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" type="text/javascript"></script>
+
+    <title>Prueba Completa</title>
+    
+</head>
+<body>
+    <h1>Lista para solicitud de Ayudas</h1>
+    <span>Nombre y Apellidos</span>
+    <input id="texto1" type="text" maxlength="30">
+
+    <span>Edad</span>
+    <select name="" id="seleccion">
+    </select>
+
+    <div id="check">
+
+    <input type="checkbox" id="check1" value="Opción 1"> familia Numerosa<br>
+    
+    <input type="checkbox" id="check2" value="Opción 2"> Monoparental<br>
+    
+    <input type="checkbox" id="check3" value="Opción 3"> Vivienda en alquiler<br>
+    </div>
+
+    <fieldset id="radius">
+        <legend>Titulacion Académica</legend>
+        <input type="radio" name="radio1" value="Sin Estudios" > Sin estudios
+        <input type="radio" name="radio1" value="Grado Medio o supeior" checked > Grado Medio o Superior
+        <input type="radio" name="radio1" value="Grado Superior" > Universidad
+        <input type="radio" name="radio1" value="Sin Estudios" > Sin estudios
+    </fieldset>
+
+    <div class="recogerdatos">
+    <button onclick="recogerDatos()">Recoger Datos</button>
+    </div>
+
+    <table id="tabla" border="1">
+        <thead>
+            <tr class="cch">
+                <th>Nombre</th>
+                <th>familia Numerosa</th>
+                <th>Monoparental</th>
+                <th>Vivienda en alquiler</th>
+                <th>Edad</th>
+                <th>Nivel Estudios</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
